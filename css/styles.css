@@ -1,0 +1,124 @@
+.card {
+    width: 400px; /* Réduisez la largeur des cartes */
+    height: 350px; /* Hauteur inchangée */
+}
+
+.card .cardImage {
+    min-height: 300px; /* Réduisez la hauteur des images */
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+h2 {
+    text-align: center;
+    background-color: #0077C0;
+    padding: 20px; /* Réduisez légèrement le padding */
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
+
+
+.logo {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+
+body, html {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    min-height: 100vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 0px !important;
+}
+
+/* Style pour les liens */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Style pour la carte d'avis du tour opérateur */
+.card {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+/* Style pour le formulaire d'ajout d'avis */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea.form-control {
+    resize: vertical;
+}
+
+.btn-primary {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour la section des avis des utilisateurs */
+.review {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.review ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.review li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.review li:before {
+    content: "\2022"; /* Utilise un point rond comme puce */
+    color: #0077C0; /* Couleur de la puce mise à jour pour correspondre au titre */
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+.background {
+    background-color: #C7EEFF;
+    padding-bottom: 20px; /* Ajoutez un peu d'espace en bas */
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
